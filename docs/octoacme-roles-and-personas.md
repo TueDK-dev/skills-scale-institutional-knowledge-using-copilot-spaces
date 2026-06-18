@@ -187,7 +187,7 @@ The DevOps/Platform Engineer maintains CI/CD pipelines, infrastructure-as-code, 
 
 ### Interactions
 - Works with Developers and Release Manager to streamline and verify deployments
-- Escalates production issues and partners with QA Lead on release verification
+- Escalates production issues and partners with QA Lead / Test Lead on release verification
 - Collaborates with Technical Lead/Architect on infrastructure and platform design
 
 ### Typical Communication
@@ -216,7 +216,7 @@ The Release Manager orchestrates release schedules, cuts releases, and verifies 
 
 ### Interactions
 - Works closely with Project Managers, Delivery Lead, and DevOps/Platform Engineer during release windows
-- Coordinates with QA Lead to confirm testing sign-off before release
+- Coordinates with QA Lead / Test Lead to confirm testing sign-off before release
 - Updates Product Managers and stakeholders on release status and outcomes
 
 ### Typical Communication
@@ -303,7 +303,7 @@ The Business Analyst or Product Operations practitioner translates stakeholder r
 
 ### Interactions
 - Liaises between stakeholders, Product Managers, and development teams to clarify scope and resolve ambiguities
-- Works with Developers and QA Lead to review acceptance criteria and verify implementation
+- Works with Developers and QA Lead / Test Lead to review acceptance criteria and verify implementation
 - Collaborates with Project Managers on scope management and change control
 
 ### Typical Communication
