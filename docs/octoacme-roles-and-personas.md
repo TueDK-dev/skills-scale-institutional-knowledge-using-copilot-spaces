@@ -110,6 +110,39 @@ The Delivery Lead coordinates day-to-day delivery across multiple teams or works
 
 ---
 
+## Program Manager
+
+### Role Summary
+The Program Manager coordinates across multiple related projects and ensures they contribute to a coherent business outcome. They reconcile competing priorities, manage inter-project dependencies, and provide leadership visibility into program-level risks, sequencing, and trade-offs.
+
+### Responsibilities
+- Coordinate timelines, milestones, and dependencies across related projects or workstreams
+- Reconcile competing priorities with Product Managers, Project Managers, and leadership
+- Maintain program-level plans, dependency maps, and escalation paths
+- Surface resource conflicts, sequencing risks, and cross-project blockers early
+- Align release timing and shared outcomes across contributing teams
+
+### Goals
+- Keep related projects aligned to shared business goals and milestones
+- Reduce delivery friction caused by dependency gaps or conflicting priorities
+- Provide clear program-level visibility so decisions can be made quickly
+
+### Interactions
+- Works with Project Managers to align project schedules, risk tracking, and status reporting across the program
+- Partners with Product Managers and Delivery Lead to reconcile scope trade-offs and milestone commitments
+- Coordinates with Release Manager and Release Coordinator when multiple teams must meet a shared release target
+
+### Example Scenarios / Handoffs
+- During release readiness for a multi-team launch, consolidates open risks from each Project Manager and hands an agreed go/no-go recommendation to the Release Manager
+- When one project slips and jeopardizes a downstream dependency, escalates options and trade-offs to leadership after aligning impacted teams on recovery scenarios
+
+### Typical Communication
+- Program status summaries, dependency maps, and milestone reviews
+- Cross-project escalation notes and decision briefings
+- Priority and sequencing updates shared with team leads and stakeholders
+
+---
+
 ## Technical Lead / Architect
 
 ### Role Summary
@@ -194,6 +227,39 @@ The DevOps/Platform Engineer maintains CI/CD pipelines, infrastructure-as-code, 
 - Pipeline and infrastructure status updates
 - Incident runbooks and postmortems
 - Deployment readiness and environment health reports
+
+---
+
+## Developer Experience (DevEx) Engineer
+
+### Role Summary
+The Developer Experience (DevEx) Engineer improves the internal tools, workflows, and documentation that developers rely on every day. They focus on reducing friction in local development, CI/CD, onboarding, and feedback loops so teams can ship changes more safely and quickly.
+
+### Responsibilities
+- Improve local development workflows, templates, and onboarding guidance
+- Optimize CI/CD ergonomics, developer feedback loops, and common automation
+- Identify and remove recurring friction in build, test, and review workflows
+- Partner with teams to standardize internal tooling and self-service patterns
+- Measure developer productivity signals and prioritize improvements accordingly
+
+### Goals
+- Reduce developer toil and waiting time across the delivery lifecycle
+- Shorten the time from code change to validated feedback
+- Improve onboarding speed and consistency for new engineers
+
+### Interactions
+- Works with Developers to identify high-friction tooling and workflow pain points
+- Partners with DevOps/Platform Engineer on CI/CD automation, environment consistency, and self-service tooling
+- Collaborates with Technical Writer/Documentation Owner to keep internal workflow documentation accurate and easy to use
+
+### Example Scenarios / Handoffs
+- Before a major release cycle, streamlines CI checks and hands updated workflow guidance to Developers so teams can resolve failures faster
+- When onboarding feedback shows repeated setup issues, converts that feedback into improved templates and documentation for team leads to adopt
+
+### Typical Communication
+- Tooling improvement proposals and internal workflow updates
+- CI/CD friction reports and developer productivity findings
+- Onboarding guides, runbooks, and self-service documentation
 
 ---
 
@@ -284,6 +350,39 @@ The Data Analyst defines metrics, instruments events, and analyzes post-release 
 
 ---
 
+## Legal / Compliance Liaison
+
+### Role Summary
+The Legal / Compliance Liaison ensures product and delivery decisions account for regulatory, contractual, and policy obligations before they become release blockers. They help teams translate compliance requirements into actionable reviews, approvals, and launch constraints.
+
+### Responsibilities
+- Review proposed features and releases for legal, regulatory, and contractual implications
+- Advise teams on data handling, retention, privacy, and approval requirements
+- Identify compliance dependencies that must be tracked in planning and release readiness
+- Coordinate required reviews, sign-offs, and evidence collection with relevant stakeholders
+- Help translate obligations into practical delivery guidance and release constraints
+
+### Goals
+- Prevent late-stage compliance surprises that delay releases or create rework
+- Ensure delivery plans reflect regulatory and contractual obligations early
+- Improve confidence that launches meet agreed legal and compliance requirements
+
+### Interactions
+- Works with Product Managers and Business Analyst / Product Operations to review feature requirements and customer commitments
+- Partners with Data Analyst and Developers when data collection or processing changes may affect compliance posture
+- Coordinates with Release Manager and Project Managers to ensure required approvals are complete before release
+
+### Example Scenarios / Handoffs
+- During release readiness, reviews a new telemetry feature and hands required approval conditions back to the Project Manager for tracking before go-live
+- When a customer contract introduces new obligations, translates those requirements into acceptance criteria and release checks for the delivery team
+
+### Typical Communication
+- Compliance review notes and approval requirements
+- Risk summaries tied to regulatory or contractual obligations
+- Release sign-off decisions and evidence requests shared with delivery leads
+
+---
+
 ## Business Analyst / Product Operations
 
 ### Role Summary
@@ -339,6 +438,39 @@ The Customer Success or Support Representative provides the voice of the custome
 - Customer feedback summaries and escalation reports
 - Release and incident communications to customer-facing teams
 - Adoption and usage reports shared with Product Managers
+
+---
+
+## Product Marketing Manager (PMM)
+
+### Role Summary
+The Product Marketing Manager (PMM) owns launch messaging, positioning, and customer-facing communications for significant releases. They ensure the market narrative, enablement materials, and launch timing are aligned with the product value being delivered.
+
+### Responsibilities
+- Define product positioning, messaging, and launch narratives for releases
+- Coordinate customer-facing announcements, enablement materials, and launch plans
+- Align go-to-market timing with release readiness and feature scope
+- Prepare FAQs, competitive talking points, and internal enablement content
+- Gather launch feedback from customer-facing teams and feed it back into planning
+
+### Goals
+- Ensure launches communicate clear customer value and differentiation
+- Improve readiness of sales, support, and customer-facing teams before launch
+- Reduce confusion caused by mismatched release scope and external messaging
+
+### Interactions
+- Partners with Product Managers to align launch messaging with product value, scope, and target users
+- Works with Change / Adoption Manager and Customer Success / Support Representative on training, FAQs, and rollout communications
+- Coordinates with Release Coordinator and Technical Writer / Documentation Owner to align announcement timing, release notes, and supporting content
+
+### Example Scenarios / Handoffs
+- Before a customer-visible release, finalizes launch messaging after the Product Manager confirms scope and hands announcement content to Customer Success and Support teams
+- If release scope changes late, updates external messaging and enablement materials in coordination with the Release Coordinator and Technical Writer
+
+### Typical Communication
+- Launch briefs, messaging frameworks, and release announcements
+- Sales and support enablement content, FAQs, and talk tracks
+- Post-launch feedback summaries shared with Product Managers and stakeholders
 
 ---
 
@@ -406,6 +538,39 @@ The Product Security Engineer embeds security expertise directly into the produc
 
 ---
 
+## Security Champion
+
+### Role Summary
+The Security Champion is an embedded team member who reinforces secure development practices within a delivery team. They help the team apply security guidance day to day, follow through on threat modeling outcomes, and escalate concerns to dedicated security specialists when deeper review is needed.
+
+### Responsibilities
+- Represent security considerations in planning, design, and day-to-day delivery discussions
+- Help translate security requirements and threat model findings into team actions
+- Coordinate follow-up on security bugs, hardening tasks, and secure coding improvements
+- Promote secure development practices, awareness, and lightweight peer reviews within the team
+- Escalate higher-risk findings to the Product Security Engineer / Security Reviewer when specialist support is needed
+
+### Goals
+- Make security a routine part of team delivery instead of a late-stage checkpoint
+- Reduce the time between identifying a security issue and starting remediation
+- Improve team ownership of secure coding and operational hygiene
+
+### Interactions
+- Works closely with Developers and Technical Lead / Architect to embed secure patterns into design and implementation
+- Partners with Product Security Engineer / Security Reviewer on threat modeling, vulnerability triage, and release gates
+- Coordinates with QA Lead / Test Lead and DevOps / Platform Engineer on security validation and operational hardening tasks
+
+### Example Scenarios / Handoffs
+- After a threat model review, converts the identified mitigations into backlog items and hands any high-risk questions to the Product Security Engineer for deeper review
+- During release readiness, confirms team-level security fixes are complete before the Release Manager checks formal security gates
+
+### Typical Communication
+- Security action-item summaries in backlog and planning reviews
+- Threat model follow-up notes and remediation status updates
+- Team-facing secure development guidance and release readiness confirmations
+
+---
+
 ## Observability & Monitoring Engineer
 
 ### Role Summary
@@ -435,6 +600,39 @@ The Observability & Monitoring Engineer ensures that systems are instrumented wi
 - Observability standards and instrumentation guidelines shared with development teams
 - SLO/SLI dashboards and error budget reports
 - Alert runbooks and on-call escalation documentation
+
+---
+
+## Incident Commander
+
+### Role Summary
+The Incident Commander leads response efforts during high-severity incidents. They create structure under pressure by setting priorities, coordinating responders, managing escalation paths, and ensuring that customer-impacting decisions and communications stay aligned until the incident is stabilized.
+
+### Responsibilities
+- Lead high-severity incident response and establish clear roles, priorities, and timelines
+- Coordinate engineering, platform, security, and support responders during active incidents
+- Drive escalation, decision-making, and status updates while keeping the response focused
+- Ensure incident communications, mitigation actions, and follow-up tasks are tracked clearly
+- Hand off post-incident actions, retrospectives, and improvement items once the incident is resolved
+
+### Goals
+- Restore service quickly while minimizing customer and business impact
+- Reduce confusion and duplicated effort during urgent response situations
+- Ensure incidents produce clear follow-up actions that improve future resilience
+
+### Interactions
+- Works with DevOps / Platform Engineer and Observability & Monitoring Engineer to assess impact, mitigation options, and system health
+- Coordinates with Product Security Engineer / Security Reviewer when an incident has security implications
+- Partners with Customer Success / Support Representative and Project Managers to align stakeholder and customer communications
+
+### Example Scenarios / Handoffs
+- When production alerts escalate into a sev-1 outage, assumes command, assigns responders, and hands approved customer updates to Customer Success and Support teams
+- After service is restored, transfers the follow-up action list to the Project Manager and relevant leads for retrospective tracking and completion
+
+### Typical Communication
+- Incident timelines, severity declarations, and responder assignments
+- Executive and stakeholder status updates during active incidents
+- Post-incident summaries, action-item owners, and retrospective handoff notes
 
 ---
 
@@ -537,4 +735,3 @@ The Change/Adoption Manager drives successful user adoption of new features and 
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
-
