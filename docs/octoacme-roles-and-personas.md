@@ -342,6 +342,198 @@ The Customer Success or Support Representative provides the voice of the custome
 
 ---
 
+## Accessibility Lead
+
+### Role Summary
+The Accessibility Lead owns WCAG compliance and accessible design across the product. They embed accessibility standards into the development lifecycle so that features are usable by people with a range of abilities from the outset, rather than retrofitted later.
+
+### Responsibilities
+- Define and maintain the accessibility standards and WCAG compliance targets for the product
+- Review designs, prototypes, and implemented features for accessibility conformance
+- Conduct and coordinate accessibility audits and assistive-technology testing
+- Provide guidance and training to Developers, UX Designers, and QA on accessible patterns
+- Track and prioritize accessibility defects and remediation efforts
+- Contribute accessibility acceptance criteria to user stories and feature specs
+
+### Goals
+- Ensure all shipped features meet the agreed WCAG conformance level
+- Reduce accessibility defects discovered late in delivery or in production
+- Build team capability so accessibility is considered at every stage of design and development
+
+### Interactions
+- Collaborates with UX Researcher/Designer to embed accessible design patterns into wireframes and prototypes
+- Works with Developers to review implementations and provide remediation guidance
+- Partners with QA Lead/Test Lead to include accessibility checks in test plans and quality gates
+- Coordinates with Product Managers to prioritize accessibility work on the roadmap
+- Informs Release Manager of any outstanding accessibility issues that should inform go/no-go decisions
+
+### Typical Communication
+- Accessibility audit reports and WCAG conformance summaries
+- Accessibility acceptance criteria attached to user stories
+- Remediation backlogs and progress dashboards shared with Product Managers and Project Managers
+
+---
+
+## Product Security Engineer / Security Reviewer
+
+### Role Summary
+The Product Security Engineer embeds security expertise directly into the product lifecycle. They perform threat modeling, review code and designs for vulnerabilities, and define security gates that must be met before release. See also: [Risk Management & Communication](octoacme-risks-and-communication.md).
+
+### Responsibilities
+- Conduct threat modeling for new features and significant architectural changes
+- Perform security design reviews and code reviews focused on vulnerability identification
+- Define and maintain security acceptance criteria and release gates
+- Track and prioritize security findings and coordinate remediation with Developers
+- Stay current on relevant CVEs, compliance requirements, and security best practices
+- Contribute to incident response when security vulnerabilities are exploited in production
+
+### Goals
+- Prevent security vulnerabilities from reaching production
+- Ensure security is a first-class requirement across all delivery work
+- Reduce the cost and impact of security remediation by identifying issues early
+
+### Interactions
+- Partners with Technical Lead/Architect on architecture reviews and security-focused design decisions
+- Works with Developers to remediate vulnerabilities identified in threat models and code reviews
+- Collaborates with DevOps/Platform Engineer on hardening CI/CD pipelines, secrets management, and infrastructure security
+- Coordinates with Release Manager to ensure security gates are satisfied before release
+- Informs Project Managers and Product Managers of security risks and their impact on scope and timelines
+
+### Typical Communication
+- Threat model documents and security review findings
+- Security gate checklists included in release readiness artifacts
+- Vulnerability reports and remediation tracking shared with Project Managers
+
+---
+
+## Observability & Monitoring Engineer
+
+### Role Summary
+The Observability & Monitoring Engineer ensures that systems are instrumented with meaningful metrics, logs, and traces so that teams can detect, diagnose, and resolve issues quickly. They own the observability strategy and work with Developers and DevOps to implement it.
+
+### Responsibilities
+- Define the observability strategy: metrics, logging standards, distributed tracing, and alerting thresholds
+- Review and approve instrumentation included in feature work to ensure consistent, useful signals
+- Build and maintain observability dashboards and alert configurations
+- Collaborate on on-call runbooks and escalation paths based on alert signals
+- Evaluate and evolve observability tooling and platforms
+- Provide observability findings and SLO/SLI reports to stakeholders
+
+### Goals
+- Ensure every production system has sufficient instrumentation to detect and diagnose issues rapidly
+- Reduce mean time to detect (MTTD) and mean time to resolve (MTTR) for incidents
+- Build confidence in deployments by establishing clear SLOs and error budgets
+
+### Interactions
+- Collaborates with Developers to define and implement instrumentation requirements as part of feature delivery
+- Works with DevOps/Platform Engineer to maintain and evolve the observability platform and alerting infrastructure
+- Partners with Data Analyst to align on metrics definitions and ensure telemetry is accurate and consistent
+- Coordinates with Release Manager to verify observability coverage as part of release readiness checks
+- Supports Project Managers and Product Managers with SLO and reliability reporting
+
+### Typical Communication
+- Observability standards and instrumentation guidelines shared with development teams
+- SLO/SLI dashboards and error budget reports
+- Alert runbooks and on-call escalation documentation
+
+---
+
+## Technical Writer / Documentation Owner
+
+### Role Summary
+The Technical Writer or Documentation Owner is accountable for the quality, accuracy, and completeness of end-user documentation, API references, and operational runbooks. They work closely with Developers and Product Managers to ensure documentation ships alongside features.
+
+### Responsibilities
+- Author and maintain end-user documentation, help content, and API references
+- Create and update operational runbooks and incident response playbooks
+- Collaborate with Developers and Product Managers to gather content and validate technical accuracy
+- Define documentation standards and templates for the team
+- Review release notes for clarity and completeness before publication
+- Track documentation debt and prioritize updates in alignment with the roadmap
+
+### Goals
+- Ensure users and operators have accurate, up-to-date documentation to support self-service
+- Reduce support burden by improving the quality and discoverability of documentation
+- Ship documentation alongside features so that no release is undocumented
+
+### Interactions
+- Works with Developers and Technical Lead/Architect to document features, APIs, and system behavior accurately
+- Collaborates with Product Managers to align documentation scope with release content and user needs
+- Partners with Customer Success/Support Representative to identify documentation gaps based on user feedback
+- Coordinates with Release Manager to include release notes and updated docs in release readiness checks. See also: [Release & Deployment](octoacme-release-and-deployment.md)
+- Shares runbooks and playbooks with DevOps/Platform Engineer and the on-call team
+
+### Typical Communication
+- Documentation plans and content drafts shared for review before publication
+- Release notes reviewed and approved as part of the release readiness process
+- Documentation gap analysis and debt backlog shared with Product Managers and Project Managers
+
+---
+
+## Release Coordinator
+
+### Role Summary
+The Release Coordinator supports release logistics by tracking readiness tasks, coordinating communication across teams, and ensuring all pre-release checklist items are completed. They complement the Release Manager by owning the operational details of release preparation. See also: [Release & Deployment](octoacme-release-and-deployment.md).
+
+### Responsibilities
+- Track and chase release readiness tasks across contributing teams
+- Maintain and update pre-release and post-release checklists
+- Coordinate scheduling of release windows with team leads and stakeholders
+- Draft and distribute release communications to internal and external audiences
+- Log release outcomes, issues encountered, and lessons learned for continuous improvement
+- Support rollback coordination by ensuring rollback plans are documented and understood by all participants
+
+### Goals
+- Ensure all release prerequisites are met on time with no last-minute surprises
+- Reduce ambiguity around release timing, responsibilities, and communication
+- Improve release reliability by maintaining thorough checklists and post-release reviews
+
+### Interactions
+- Works directly with Release Manager to track readiness status and surface blockers
+- Coordinates with Project Managers and Delivery Lead to align release windows with delivery schedules
+- Liaises with DevOps/Platform Engineer and QA Lead/Test Lead to confirm environment readiness and testing sign-off
+- Partners with Technical Writer/Documentation Owner to ensure release notes are prepared and approved
+- Communicates release timelines and status updates to Product Managers and Customer Success/Support Representative
+
+### Typical Communication
+- Release readiness checklists and status updates shared with all contributing teams
+- Pre-release and post-release communications distributed to stakeholders
+- Release retrospective notes and lessons-learned summaries
+
+---
+
+## Change / Adoption Manager
+
+### Role Summary
+The Change/Adoption Manager drives successful user adoption of new features and process changes. They develop enablement plans, coordinate training, and track adoption metrics to ensure that releases deliver their intended business value. See also: [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md).
+
+### Responsibilities
+- Develop change management and feature adoption plans for significant releases
+- Coordinate training, enablement materials, and internal communications for new features
+- Track adoption metrics and surface insights to Product Managers and stakeholders
+- Identify and manage change resistance or adoption blockers across user groups
+- Facilitate feedback loops between end users and the product team post-release
+- Collaborate on rollout strategies, including phased rollouts and feature-flag plans
+
+### Goals
+- Maximize adoption of new features and process changes to realize intended business outcomes
+- Reduce user friction and resistance during transitions
+- Ensure teams and users are prepared before changes go live
+
+### Interactions
+- Collaborates with Product Managers to understand feature value propositions and define adoption success metrics
+- Works with Customer Success/Support Representative to coordinate user-facing communications and training
+- Partners with Release Manager and Release Coordinator on rollout timing and go-live communications
+- Coordinates with Technical Writer/Documentation Owner to ensure enablement materials are accurate and available at launch
+- Reports adoption progress and blockers to Project Managers and stakeholders
+
+### Typical Communication
+- Change management and adoption plans shared with Product Managers and Project Managers
+- Enablement materials, training guides, and FAQs distributed to affected user groups
+- Adoption metric reports and post-rollout feedback summaries
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
