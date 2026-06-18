@@ -363,7 +363,7 @@ The Accessibility Lead owns WCAG compliance and accessible design across the pro
 ### Interactions
 - Collaborates with UX Researcher/Designer to embed accessible design patterns into wireframes and prototypes
 - Works with Developers to review implementations and provide remediation guidance
-- Partners with QA Lead to include accessibility checks in test plans and quality gates
+- Partners with QA Lead / Test Lead to include accessibility checks in test plans and quality gates
 - Coordinates with Product Managers to prioritize accessibility work on the roadmap
 - Informs Release Manager of any outstanding accessibility issues that should inform go/no-go decisions
 
@@ -491,7 +491,7 @@ The Release Coordinator supports release logistics by tracking readiness tasks, 
 ### Interactions
 - Works directly with Release Manager to track readiness status and surface blockers
 - Coordinates with Project Managers and Delivery Lead to align release windows with delivery schedules
-- Liaises with DevOps/Platform Engineer and QA Lead to confirm environment readiness and testing sign-off
+- Liaises with DevOps/Platform Engineer and QA Lead / Test Lead to confirm environment readiness and testing sign-off
 - Partners with Technical Writer/Documentation Owner to ensure release notes are prepared and approved
 - Communicates release timelines and status updates to Product Managers and Customer Success/Support Representative
 
